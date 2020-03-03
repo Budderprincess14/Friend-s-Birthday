@@ -1,0 +1,64 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/orbitron/v15/yMJRMIlzdpvBhQQL_Qq7dy0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Orbitron-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/orbitron/v15/yMJRMIlzdpvBhQQL_Qq7dy0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/*Layout*/
+html {
+    background: rgb(184,172,219);
+    background: linear-gradient(90deg, rgba(184,172,219,1) 16%, rgba(255,255,255,1) 48%, rgba(138,184,46,1) 86%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+/*Text Styling*/
+html {
+    font-family: "Orbitron", sans-serif;
+}
+
+h1 {
+    font-family: "Orbitron-Bold", sans-serif;
+}
+
+.line1 {
+    text-indent: 5%;
+}
+
+.signature1,
+.signature2 {
+    text-align: right;
+}
+
+ .signature2 {
+     font-style: oblique;
+ }
+
+
+
+
+
